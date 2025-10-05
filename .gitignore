@@ -1,0 +1,52 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python / Poetry
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.dist/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Env & secrets
+.env
+*.env
+backend/.env
+backend/.env.*
+backend/credentials.json
+backend/token.json
+
+# Data volumes
+.qdrant/
+.pgdata/
+fin.db
+*.sqlite
+*.sqlite3
+
+# Build artifacts
+build/
+dist/
+
+# Node / React
+frontend/node_modules/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Docker
+*.log
+**/docker/**/tmp/
